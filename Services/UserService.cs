@@ -18,7 +18,7 @@ namespace SolarPayAPI.Services
         public async Task<ServiceResponse<int>> RegisterUserAsync(UserRegisterDto request)
         {
             var response = new ServiceResponse<int>();
-            // Логика для регистрации пользователя
+        
 
             if (await _context.Users.AnyAsync(u => u.Email == request.Email))
             {
@@ -53,7 +53,7 @@ namespace SolarPayAPI.Services
                 return response;
             }
 
-            response.Data = "Generated JWT Token"; // Замените на реальную генерацию токена
+            response.Data = "Generated JWT Token"; 
             return response;
         }
 

@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "03+U75/a083ZK0VZIdqHGNn1ymd06eaocWO/yIunKaY=",
+  "Hash": "6ohjANA7oWaTqqcom88t7rIJl6uOsrET1gI999gCRB8=",
   "Source": "SolarPayAPI",
   "BasePath": "_content/SolarPayAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "SolarPayAPI/wwwroot",
+      "Source": "SolarPayAPI",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/index.html",
+      "SourceId": "SolarPayAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
 }

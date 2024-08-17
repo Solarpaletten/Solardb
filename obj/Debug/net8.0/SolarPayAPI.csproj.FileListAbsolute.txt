@@ -70,3 +70,7 @@
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/obj/Debug/net8.0/SolarPayAPI.pdb
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/obj/Debug/net8.0/SolarPayAPI.genruntimeconfig.cache
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/obj/Debug/net8.0/ref/SolarPayAPI.dll
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/obj/Debug/net8.0/SolarPayAPI.sourcelink.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Debug/net8.0/SolarPayAPI.staticwebassets.runtime.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Debug/net8.0/Npgsql.dll
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
