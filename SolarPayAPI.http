@@ -1,0 +1,6 @@
+@SolarPayAPI_HostAddress = http://localhost:5001
+
+GET {{SolarPayAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
