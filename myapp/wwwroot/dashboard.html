@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-gray-200 shadow p-4 flex justify-between items-center">
+        <button onclick="logout()" class="text-red-500">Logout</button>
+    </header>
+    
+    <header class="bg-gray-200 shadow p-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-blue-600 logo">bconto</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Product</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Integrations</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Teaching</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Prices</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Accounting Companies</a></li>
+            </ul>
+        </nav>
+        <div class="space-x-2 auth-buttons">
+            <button onclick="window.location.href='./index.html'" class="bg-blue-500 text-white px-4 py-2 rounded">Login</button>
+        </div>        
+    </header>
+
+    <main class="p-4 flex">
+        <div class="bg-gray-200 p-4 rounded shadow-md sidebar w-1/4">
+            <ul class="space-y-4">
+                <li><a href="#clients" class="text-gray-700 hover:text-blue-600">Clients</a></li>
+                <li><a href="#warehouse" class="text-gray-700 hover:text-blue-600">Warehouse</a></li>
+                <li><a href="#general-ledger" class="text-gray-700 hover:text-blue-600">General Ledger</a></li>
+                <li><a href="#bank" class="text-gray-700 hover:text-blue-600">Bank</a></li>
+            </ul>
+        </div>
+
+        <div class="flex-grow p-4 content">
+            <section id="clients" class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Clients</h2>
+                <form>
+                    <table class="table-auto w-full bg-white shadow-md rounded p-4">
+                        <tr>
+                            <td class="p-2"><label for="clientName" class="block">Name:</label></td>
+                            <td class="p-2"><input type="text" id="clientName" name="clientName" required class="w-full border rounded p-2"></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2"><label for="clientEmail" class="block">Email:</label></td>
+                            <td class="p-2"><input type="email" id="clientEmail" name="clientEmail" required class="w-full border rounded p-2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="p-2 text-center"><button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Add Client</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <ul id="clientsList" class="mt-4 bg-white p-4 rounded shadow-md"></ul>
+            </section>
+
+            <section id="warehouse" class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Warehouse</h2>
+                <form>
+                    <table class="table-auto w-full bg-white shadow-md rounded p-4">
+                        <tr>
+                            <td class="p-2"><label for="warehouseName" class="block">Name:</label></td>
+                            <td class="p-2"><input type="text" id="warehouseName" name="warehouseName" required class="w-full border rounded p-2"></td>
+                        </tr>
+                        <tr>
+                            <td class="p-2"><label for="warehouseQuantity" class="block">Quantity:</label></td>
+                            <td class="p-2"><input type="number" id="warehouseQuantity" name="warehouseQuantity" required class="w-full border rounded p-2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="p-2 text-center"><button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Add Item</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <ul id="warehouseList" class="mt-4 bg-white p-4 rounded shadow-md"></ul>
+            </section>
+
+            <!-- Add sections for General Ledger and Bank as needed -->
+        </div>
+    </main>
+
+    <footer class="bg-gray-200 shadow p-4 mt-8">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="/js/auth.js"></script>
+    <script src="/js/clients.js"></script>
+    <script src="/js/warehouse.js"></script>
+    <script src="/js/ledger.js"></script>
+    <script src="/js/bank.js"></script>
+</body>
+</html>

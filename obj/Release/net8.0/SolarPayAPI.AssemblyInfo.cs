@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolarPayAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4da17d1d8e05885d230111177fefd4132e7db6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f03d06ed3bbc1ffa209f9ee2e910b10736b659a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolarPayAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolarPayAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
