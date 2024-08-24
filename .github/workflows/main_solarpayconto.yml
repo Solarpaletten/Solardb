@@ -19,10 +19,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build SolarPayAPI/SolarPayAPI.csproj --configuration Release
+        run: dotnet build C:\Users\asset\Documents\Solar-Pay\SolarPayAPI\SolarPayAPI.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish SolarPayAPI/SolarPayAPI.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish C:\Users\asset\Documents\Solar-Pay\SolarPayAPI\SolarPayAPI.csproj --configuration Release --output C:\Users\asset\Documents\Solar-Pay\SolarPayAPI\myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
