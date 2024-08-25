@@ -54,8 +54,7 @@ jobs:
           auth-type: service_principal
           allow-no-subscriptions: true
           enable-AzPSSession: false
-          environment: azurecloud
-          audience: api://AzureADTokenExchange  
+          environment: AzureCloud  
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
