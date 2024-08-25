@@ -56,5 +56,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'sconto'
-          slot-name: 'production'
           package: ${{ github.workspace }}/myapp
