@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6ohjANA7oWaTqqcom88t7rIJl6uOsrET1gI999gCRB8=",
+  "Hash": "d50GHkGFUXkY4HPylRWNKoX4Abi5eB2ns+hF7Ee6pBU=",
   "Source": "SolarPayAPI",
   "BasePath": "_content/SolarPayAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/dashboard.html",
+      "SourceId": "SolarPayAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "RelativePath": "dashboard.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/dashboard.html"
+    },
     {
       "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/index.html",
       "SourceId": "SolarPayAPI",
@@ -34,6 +53,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/login.html",
+      "SourceId": "SolarPayAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/login.html"
+    },
+    {
+      "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/register.html",
+      "SourceId": "SolarPayAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "RelativePath": "register.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/register.html"
+    },
+    {
+      "Identity": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/warehouse.html",
+      "SourceId": "SolarPayAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/",
+      "BasePath": "_content/SolarPayAPI",
+      "RelativePath": "warehouse.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/warehouse.html"
     }
   ]
 }

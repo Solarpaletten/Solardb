@@ -19,16 +19,16 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build ./src/SolarPayAPI/SolarPayAPI.csproj --configuration Release
+        run: dotnet build SolarPayAPI.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./src/SolarPayAPI/SolarPayAPI.csproj --configuration Release --output .\SolarPayAPI\myapp
+        run: dotnet publish SolarPayAPI.csproj --configuration Release --output ${{ github.workspace }}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{ github.workspace }}/myapp
 
   deploy:
     runs-on: windows-latest
@@ -58,4 +58,4 @@ jobs:
         with:
           app-name: 'solarpayconto'
           slot-name: 'production'
-          package: .
+          package: ${{ github.workspace }}/myapp

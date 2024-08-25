@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/dashboard.html",
+      "PackagePath": "staticwebassets/dashboard.html"
+    },
+    {
       "Id": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/login.html",
+      "PackagePath": "staticwebassets/login.html"
+    },
+    {
+      "Id": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/register.html",
+      "PackagePath": "staticwebassets/register.html"
+    },
+    {
+      "Id": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/wwwroot/warehouse.html",
+      "PackagePath": "staticwebassets/warehouse.html"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SolarPayAPI.Microsoft.AspNetCore.StaticWebAssets.props",
