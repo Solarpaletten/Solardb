@@ -160,3 +160,17 @@
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/SolarPaybankingApp/tsconfig.json
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/SolarPaybankingApp/tsconfig.spec.json
 /Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/package-lock.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/web.config
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/web.config
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/appsettings.Development.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/appsettings.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPayAPI.deps.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPayAPI.runtimeconfig.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/angular.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/dist/solar-paybanking-app/prerendered-routes.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/package-lock.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/package.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/tsconfig.app.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/tsconfig.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/myapp/SolarPaybankingApp/tsconfig.spec.json
+/Users/asset/Documents/Solar-Pay/SolarPayAPI/bin/Release/net8.0/myapp/package-lock.json
