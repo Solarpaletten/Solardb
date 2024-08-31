@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f48DmwkEGUM=",
+  "dgSpecHash": "WPoCQrfWHxc=",
   "success": true,
   "projectFilePath": "/Users/asset/Documents/Solar-Pay/SolarPayAPI/SolarPayAPI.csproj",
   "expectedPackageFiles": [
@@ -83,7 +83,9 @@
     "/Users/asset/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
     "/Users/asset/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
     "/Users/asset/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/asset/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/Users/asset/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/asset/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/8.0.8/microsoft.netcore.app.runtime.osx-x64.8.0.8.nupkg.sha512",
+    "/Users/asset/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/8.0.8/microsoft.aspnetcore.app.runtime.osx-x64.8.0.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -56,4 +56,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'sconto'
-          package: ${{ github.workspace }}/publish
+          package: ${{ github.workspace }}/myapp/wwwroot
